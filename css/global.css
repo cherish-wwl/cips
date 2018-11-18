@@ -1,0 +1,155 @@
+
+/********************** 公共样式-start  **********************/
+*{
+    padding: 0;
+    margin: 0;
+}
+.noPadding {
+    padding: 0;
+    
+}
+.fullWidth {
+    width: 100%;
+}
+
+.col-lg-2dot4 { 
+    position: relative; 
+    min-height: 1px; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+} 
+@media (min-width: 1200px) { 
+    .col-lg-2dot4 { 
+        float: left; 
+    } 
+    .col-lg-2dot4 { 
+        width: 20%; 
+    } 
+    .col-lg-pull-2dot4 { 
+        right: 20%; 
+    } 
+    .col-lg-push-2dot4 { 
+        left: 20%; 
+    } 
+    .col-lg-offset-2dot4 { 
+        margin-left: 20%; 
+    } 
+} 
+/********************** 公共样式-end  **********************/
+
+/********************** 导航栏样式-start ***********************/
+.navbar-indexPage {
+    background-color:rgba(17, 90, 176, 1);
+    border: none;
+}
+/* 鼠标悬浮导航下拉 */
+.navbar-indexPage .nav > li:hover .dropdown-menu {
+    display: block;
+} 
+.navbar-indexPage ul.nav.navbar-nav>li.active{
+    background-color: #0B50A1;
+}
+.navbar-indexPage .navbar-nav>li>a {
+    font-size: 16px;
+    color: #fff;
+}
+.navbar-indexPage .nav .open>a, .navbar-indexPage .nav .open>a:focus, .navbar-indexPage .nav .open>a:hover {
+    background-color: #0d509e;
+}
+.navbar-indexPage .nav>li>a:focus, .navbar-indexPage .nav>li>a:hover {
+    background-color: #0d509e;
+}    
+
+.navbar-indexPage ul.dropdown-menu.down-color {
+    background-color: rgba(17, 90, 176, 1);
+    min-width: 0;
+    width: 120px;
+    border: none;
+    text-align: center;
+}
+.navbar-indexPage ul.dropdown-menu.down-color li a{
+    padding: 8px 0;
+}
+.navbar-indexPage .dropdown-menu.down-color>li>a {
+    color: #fff;
+}
+.navbar-indexPage ul.nav.navbar-nav>li {
+    width: 120px;
+    text-align: center;
+}
+.navbar-indexPage .dropdown-menu.down-color>li>a:focus, .navbar-indexPage .dropdown-menu.down-color>li>a:hover {
+    background-color: #0d509e;
+}
+
+.navbar-indexPage input.form-control {
+    border: none;
+    border-radius: 0;
+    background-color: #467bb9;
+    height: 28px;
+    margin: 0 1px;
+}
+.navbar-indexPage img.search {
+    height: 29px;
+}
+.navbar-indexPage .input-group {
+    margin-top: 2px;
+    margin-left: 28px;
+}
+
+@media (min-width: 768px){
+    .navbar-indexPage .navbar {
+        border-radius: 0;
+    }
+}
+
+/********************** 导航栏样式-end ***********************/
+
+
+
+/********************** 文本  **********************/
+
+img.index-img1 {
+    width: 666px;
+}
+
+.col-md-5 {
+    background-color: rgba(242, 242, 242, 1);
+    height: 367px;
+}
+.row .col-md-5 span.shang {
+    color: #0B50A1;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 34px;
+    margin-right: 27px;
+    margin-left: 8px;
+    font-family: '微软雅黑 Regular', '微软雅黑'; 
+}
+.row .col-md-5 span.xia {
+    margin-top: 110px;
+    margin-left: 15px;
+    margin-right: 46px;
+    position: absolute;
+    font-size: 14px;
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    line-height: 28px;
+}
+
+
+
+.platforms {
+    margin-top: 20px;
+}
+.platforms .item {
+    background-color: rgba(229, 233, 242, 1);
+    margin-right: -20px;
+}
+.platforms div:last-child .item {
+    margin-right: -15px;
+}
+.platforms span {
+    font-size: 21px;
+    color: rgb(111, 133, 159);
+    font-weight: bold;
+    margin-left: 13px;
+}
